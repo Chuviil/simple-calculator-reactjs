@@ -28,9 +28,9 @@ button{
     border: none;
     background-color: #6daa7fff;
     color: #36553fff;
-    width: 100%;
+    width: 98%;
     border-radius: 2px;
-    margin-bottom: 18px;
+    margin: 14px 0px;
     height: 40px;
     font-size: large;
     text-align: end;
@@ -44,11 +44,23 @@ button{
     box-shadow: 0px 5px 0px 0px rgba(109, 170, 127,1);
 }
 
+.functcalcs:hover{
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px rgba(179, 179, 179,1);
+    transition: all 0.5s;
+}
+
 .calcbutton{
     border: none;
     background-color: #e0e0e0ff;
     color: #455a64ff;
     box-shadow: 0px 5px 0px 0px rgba(179, 179, 179,1);
+}
+
+.calcbutton:hover{
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px rgba(179, 179, 179,1);
+    transition: all 0.5s;
 }
 
 .calculator{
